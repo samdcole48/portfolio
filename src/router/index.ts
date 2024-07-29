@@ -7,12 +7,19 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import HelloWorld from '@/components/HelloWorld.vue'
+import home from '@/pages/home.vue'
+import aboutMe from '@/pages/about-me.vue'
+import qualifications from '@/pages/qualifications.vue'
+import projects from '@/pages/projects.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'home', component: HelloWorld },
-    { path: '/hello', name: 'hello', component: HelloWorld}
+    { path: '/hello', name: 'hello', component: HelloWorld },
+    { path: '/aboutMe', name: 'aboutMe', component: aboutMe },
+    { path: '/qualifications', name: 'qualifications', component: qualifications },
+    { path: '/projects', name: 'projects', component: projects },
+    { path: '/', name: 'home', component: home },
   ],
 })
 
