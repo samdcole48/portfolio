@@ -6,12 +6,14 @@
 
 // Composables
 import { createRouter, createWebHistory } from 'vue-router/auto'
-import { setupLayouts } from 'virtual:generated-layouts'
-import { routes } from 'vue-router/auto-routes'
+import HelloWorld from '@/components/HelloWorld.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: setupLayouts(routes),
+  routes: [
+    { path: '/', name: 'home', component: HelloWorld },
+    { path: '/hello', name: 'hello', component: HelloWorld}
+  ],
 })
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
