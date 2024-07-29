@@ -2,7 +2,7 @@
     <v-app-bar>
         <v-container class="fill-height d-flex">
             <v-app-bar-title>
-                <img height="30" src="@/assets/my-logo.png"></img>
+                <img height="30" src="@/assets/my-logo.png">
             </v-app-bar-title>
             
             <v-btn variant="text" :to="{name: '/about-me'}">

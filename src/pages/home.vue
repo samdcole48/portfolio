@@ -3,7 +3,7 @@
     <div class="align-centerfill-height mx-auto">
       <div style="font-size: 900%">
         Hello, I'm <br>
-        <img height="150" src="@/assets/my-logo.png"></img>
+        <img height="150" src="@/assets/my-logo.png">
       </div>
       <div style="font-size: 400%">An Aspiring Software Developer</div>
     </div>
