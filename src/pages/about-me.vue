@@ -1,9 +1,9 @@
 <template>
   <v-container class="fill-height">
     <div class="align-centerfill-height mx-auto">
-      <v-row>
-        <v-col>
-          <img height="100" src="@/assets/my-logo.png" />
+      <two-even-containers>
+        <template #left
+          ><img height="100" src="@/assets/my-logo.png" />
           <div style="font-size: 150%; max-width: 600px">
             I am a computer science student at Texas A&M University. I am
             actively involved in both the Roundnet and Pickleball Clubs and
@@ -32,14 +32,17 @@
               :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-github</v-icon></a
             >
-          </div>
-        </v-col>
-        <v-col>
-          <img height="500" src="@/assets/headshot-no-bg.png" />
-        </v-col>
-      </v-row>
+          </div></template
+        >
+        <template #right
+          ><img height="500" src="@/assets/headshot-no-bg.png"
+        /></template>
+      </two-even-containers>
+      <!--room to add more about me beneath this section, hiking, rachel, anything else personal-->
     </div>
   </v-container>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import TwoEvenContainers from "@/components/TwoEvenContainers.vue";
+</script>
