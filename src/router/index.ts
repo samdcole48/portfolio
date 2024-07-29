@@ -15,11 +15,11 @@ import projects from '@/pages/projects.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/hello', name: 'hello', component: HelloWorld },
-    { path: '/aboutMe', name: 'aboutMe', component: aboutMe },
-    { path: '/qualifications', name: 'qualifications', component: qualifications },
-    { path: '/projects', name: 'projects', component: projects },
-    { path: '/', name: 'home', component: home },
+    { path: '/hello', name: '/hello', component: HelloWorld },
+    { path: '/about-me', name: '/about-me', component: aboutMe },
+    { path: '/qualifications', name: '/qualifications', component: qualifications },
+    { path: '/projects', name: '/projects', component: projects },
+    { path: '/', name: '/', component: home },
   ],
 })
 
