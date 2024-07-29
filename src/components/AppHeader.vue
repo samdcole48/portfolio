@@ -1,9 +1,9 @@
 <template>
     <v-app-bar>
         <v-container class="fill-height d-flex">
-            <v-toolbar-title>
-                Sam Cole
-            </v-toolbar-title>
+            <v-app-bar-title>
+                <img height="30" src="@/assets/my-logo.png"></img>
+            </v-app-bar-title>
             
             <v-btn variant="text" :to="{name: '/about-me'}">
                 About Me
