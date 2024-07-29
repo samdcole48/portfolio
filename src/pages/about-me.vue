@@ -14,23 +14,21 @@
           </div>
           <br />
           <div style="font-size: 150%">
-            <!--on click open up an email page-->
-            <a
-              href="mailto:samdcole48@gmail.com" target="blank"
-              :style="{ color: 'var(--v-theme-primary)' }"
+            <!--look into mailto, removed because it was not working-->
+            <a :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-gmail</v-icon>samdcole48@gmail.com</a
             >
           </div>
           <div style="font-size: 150%">
             <a
               href="https://www.linkedin.com/in/samdcole48/"
-              target="blank"
+              target="_blank"
               :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-linkedin</v-icon></a
             >
             <a
               href="https://github.com/samdcole48"
-              target="blank"
+              target="_blank"
               :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-github</v-icon></a
             >
@@ -44,6 +42,4 @@
   </v-container>
 </template>
 
-<script lang="ts" setup>
-
-</script>
+<script lang="ts" setup></script>
