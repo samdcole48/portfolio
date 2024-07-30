@@ -9,7 +9,7 @@ import { createRouter, createWebHistory } from 'vue-router/auto'
 import HelloWorld from '@/components/HelloWorld.vue'
 import home from '@/pages/home.vue'
 import aboutMe from '@/pages/about-me.vue'
-import qualifications from '@/pages/qualifications.vue'
+import experience from '@/pages/experience.vue'
 import projects from '@/pages/projects.vue'
 
 const router = createRouter({
@@ -17,7 +17,7 @@ const router = createRouter({
   routes: [
     { path: '/hello', name: '/hello', component: HelloWorld },
     { path: '/about-me', name: '/about-me', component: aboutMe },
-    { path: '/qualifications', name: '/qualifications', component: qualifications },
+    { path: '/experience', name: '/experience', component: experience },
     { path: '/projects', name: '/projects', component: projects },
     { path: '/', name: '/', component: home },
   ],

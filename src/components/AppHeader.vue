@@ -8,8 +8,8 @@
             <v-btn variant="text" :to="{name: '/about-me'}">
                 About Me
             </v-btn>
-            <v-btn variant="text" :to="{name: '/qualifications'}">
-                Qualifications
+            <v-btn variant="text" :to="{name: '/experience'}">
+                Experience
             </v-btn>
             <v-btn variant="text" :to="{name: '/projects'}">
                 Projects
