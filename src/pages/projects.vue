@@ -62,11 +62,10 @@
                 height="100%"
               ></v-img>
             </v-carousel-item>
-            <v-carousel-item>
+            <v-carousel-item height="91%">
               <LiteYouTubeEmbed
                 id="3WuS_1eirq0"
                 title="CSCE431 BLSA Alumni Tracker Product Demo"
-                aspectHeight="8.35"
               />
             </v-carousel-item>
           </v-carousel>
