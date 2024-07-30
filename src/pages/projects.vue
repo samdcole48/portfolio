@@ -40,7 +40,7 @@
         </template>
         <template #right>
           <v-carousel
-            :show-arrows="false"
+            show-arrows="hover"
             delimiter-icon="mdi-square"
             hide-delimiter-background
           >
@@ -101,7 +101,7 @@
         </template>
         <template #right>
           <v-carousel
-            :show-arrows="false"
+            show-arrows="hover"
             delimiter-icon="mdi-square"
             hide-delimiter-background
           >
@@ -148,7 +148,7 @@
         </template>
         <template #right>
           <v-carousel
-            :show-arrows="false"
+            show-arrows="hover"
             delimiter-icon="mdi-square"
             hide-delimiter-background
           >
@@ -251,7 +251,7 @@
         </template>
         <template #right>
           <v-carousel
-            :show-arrows="false"
+            show-arrows="hover"
             delimiter-icon="mdi-square"
             hide-delimiter-background
           >
