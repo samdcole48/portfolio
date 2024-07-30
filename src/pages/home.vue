@@ -3,7 +3,7 @@
     <div class="align-centerfill-height mx-auto">
       <div style="font-size: 900%">
         Hello, I'm <br>
-        <img height="150" src="@/assets/my-logo.png">
+        <router-link :to="{name: '/about-me'}"><img height="150" src="@/assets/my-logo.png"></router-link>
       </div>
       <div style="font-size: 400%">An Aspiring Software Developer</div>
     </div>
