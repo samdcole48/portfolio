@@ -21,6 +21,10 @@ const router = createRouter({
     { path: '/projects', name: '/projects', component: projects },
     { path: '/', name: '/', component: home },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
