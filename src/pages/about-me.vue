@@ -18,8 +18,7 @@
             <a :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-gmail</v-icon>samdcole48@gmail.com</a
             >
-          </div>
-          <div style="font-size: 150%">
+            <br />
             <a
               href="https://www.linkedin.com/in/samdcole48/"
               target="_blank"
@@ -31,6 +30,15 @@
               target="_blank"
               :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-github</v-icon></a
+            >
+            <a
+              href="One Pager Resume, Sam Cole.pdf"
+              target="_blank"
+              :style="{
+                color: 'var(--v-theme-primary)',
+                textDecoration: 'none',
+              }"
+              ><v-icon>mdi-file</v-icon>Resume</a
             >
           </div>
         </template>
