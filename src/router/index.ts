@@ -6,7 +6,7 @@
 
 // Composables
 import { createRouter, createWebHistory } from 'vue-router/auto'
-import home from '@/pages/home.vue'
+import index from '@/pages/index.vue'
 import aboutMe from '@/pages/about-me.vue'
 import experience from '@/pages/experience.vue'
 import projects from '@/pages/projects.vue'
@@ -17,7 +17,7 @@ const router = createRouter({
     { path: '/about-me', name: '/about-me', component: aboutMe },
     { path: '/experience', name: '/experience', component: experience },
     { path: '/projects', name: '/projects', component: projects },
-    { path: '/', name: '/', component: home },
+    { path: '/', name: '/', component: index },
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top
