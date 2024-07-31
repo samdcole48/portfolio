@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <div class="align-centerfill-height mx-auto">
-      <two-even-containers class="py-16 my-16">
+      <two-even-columns class="py-16 my-16">
         <template #left>
           <title-text-and-links>
             <template #title>TAMU BLSA Alumni Tracker</template>
@@ -71,9 +71,9 @@
             </v-carousel-item>
           </v-carousel>
         </template>
-      </two-even-containers>
+      </two-even-columns>
 
-      <two-even-containers class="py-16 my-16">
+      <two-even-columns class="py-16 my-16">
         <template #left>
           <title-text-and-links>
             <template #title>MESS Waffles POS System</template>
@@ -122,9 +122,9 @@
             </v-carousel-item>
           </v-carousel>
         </template>
-      </two-even-containers>
+      </two-even-columns>
 
-      <two-even-containers class="py-16 my-16">
+      <two-even-columns class="py-16 my-16">
         <template #left>
           <title-text-and-links>
             <template #title>64-bit x86 CPU</template>
@@ -214,9 +214,9 @@
             </v-carousel-item>
           </v-carousel>
         </template>
-      </two-even-containers>
+      </two-even-columns>
 
-      <two-even-containers class="py-16 my-16">
+      <two-even-columns class="py-16 my-16">
         <template #left>
           <title-text-and-links>
             <template #title>Space Traveler</template>
@@ -276,13 +276,13 @@
             </v-carousel-item>
           </v-carousel>
         </template>
-      </two-even-containers>
+      </two-even-columns>
     </div>
   </v-container>
 </template>
 
 <script lang="ts" setup>
-import TwoEvenContainers from "@/components/TwoEvenContainers.vue";
+import TwoEvenColumns from "@/components/TwoEvenColumns.vue";
 import TitleTextAndLinks from "@/components/TitleTextAndLinks.vue";
 import LiteYouTubeEmbed from "vue-lite-youtube-embed";
 import "vue-lite-youtube-embed/style.css";

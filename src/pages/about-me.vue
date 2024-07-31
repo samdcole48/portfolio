@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <div class="align-center mx-auto my-16 py-16">
-      <two-even-containers>
+      <two-even-columns>
         <template #left
           ><img height="100" src="@/assets/my-logo.png" />
           <div style="font-size: 150%; max-width: 600px">
@@ -41,10 +41,10 @@
             src="@/assets/headshot-no-bg.png"
           />
         </template>
-      </two-even-containers>
+      </two-even-columns>
     </div>
 
-    <two-even-containers class="py-16 my-16">
+    <two-even-columns class="py-16 my-16">
       <template #left>
         <title-text-and-links>
           <template #title>Texas A&M</template>
@@ -89,9 +89,9 @@
           </v-carousel-item>
         </v-carousel>
       </template>
-    </two-even-containers>
+    </two-even-columns>
 
-    <two-even-containers class="py-16 my-16">
+    <two-even-columns class="py-16 my-16">
       <template #left>
         <v-carousel
           show-arrows="hover"
@@ -161,7 +161,7 @@
           </template>
         </title-text-and-links>
       </template>
-    </two-even-containers>
+    </two-even-columns>
   </v-container>
 </template>
 
