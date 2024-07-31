@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <div class="align-centerfill-height mx-auto">
+    <div class="mx-auto">
       <two-even-columns class="py-16 my-16">
         <template #left>
           <title-text-and-links>

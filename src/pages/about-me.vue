@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <div class="align-center mx-auto my-16 py-16">
+    <div class="mx-auto my-16 py-16">
       <two-even-columns>
         <template #left
           ><img height="100" src="@/assets/my-logo.png" />

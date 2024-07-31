@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <div class="align-center fill-height mx-auto">
+    <div class="mx-auto">
       <v-timeline direction="vertical" side="end">
         <v-timeline-item icon="mdi-school" icon-color="black" fill-dot>
           <template v-slot:opposite>
