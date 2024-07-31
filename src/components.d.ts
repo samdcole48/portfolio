@@ -8,10 +8,12 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppHeader: typeof import('./components/AppHeader.vue')['default']
+    copy: typeof import('./components/TwoEvenContainers copy.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TitleSubtitleTextAndLinks: typeof import('./components/TitleSubtitleTextAndLinks.vue')['default']
     TitleTextAndLinks: typeof import('./components/TitleTextAndLinks.vue')['default']
     TwoEvenContainers: typeof import('./components/TwoEvenContainers.vue')['default']
+    TwoEvenRows: typeof import('./components/TwoEvenRows.vue')['default']
   }
 }

@@ -13,7 +13,8 @@
                 @ Texas A&M University, College Station TX
               </template>
               <template #text>
-                I am expected to graduate in May of 2025 with a Bachelors of Science in Computer Science.
+                I am expected to graduate in May of 2025 with a Bachelors of
+                Science in Computer Science.
               </template>
             </title-subtitle-text-and-links>
           </div>
@@ -21,11 +22,14 @@
 
         <v-timeline-item icon="mdi-briefcase" icon-color="black" fill-dot>
           <template v-slot:opposite>
-            <div style="font-size: 150%">May 2024 - July 2024</div>
+            <div style="font-size: 150%">
+              May 2024 - <br />
+              July 2024
+            </div>
           </template>
           <div class="py-16">
-            <two-even-containers>
-              <template #left>
+            <two-even-rows>
+              <template #top>
                 <title-subtitle-text-and-links>
                   <template #title>Software Developement Intern</template>
                   <template #subtitle>
@@ -54,51 +58,53 @@
                   </template>
                 </title-subtitle-text-and-links>
               </template>
-              <template #right>
-                <v-carousel
-                  show-arrows="hover"
-                  delimiter-icon="mdi-square"
-                  hide-delimiter-background
-                >
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_NewProcess.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_CurrentProcess.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_TaskDashboard.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_TaskDetails.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_PurchaseOrderDetails.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/labatt/Labatt_PalletDetails.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                </v-carousel>
+              <template #bottom>
+                <div style="max-width: 80%" class="mx-auto">
+                  <v-carousel
+                    show-arrows="hover"
+                    delimiter-icon="mdi-square"
+                    hide-delimiter-background
+                  >
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_NewProcess.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_CurrentProcess.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_TaskDashboard.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_TaskDetails.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_PurchaseOrderDetails.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/labatt/Labatt_PalletDetails.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                  </v-carousel>
+                </div>
               </template>
-            </two-even-containers>
+            </two-even-rows>
           </div>
         </v-timeline-item>
 
@@ -109,11 +115,14 @@
           fill-dot
         >
           <template v-slot:opposite>
-            <div style="font-size: 150%">May 2023 - August 2023</div>
+            <div style="font-size: 150%">
+              May 2023 - <br />
+              August 2023
+            </div>
           </template>
           <div class="py-16">
-            <two-even-containers>
-              <template #left>
+            <two-even-rows>
+              <template #top>
                 <title-subtitle-text-and-links>
                   <template #title>Firmware Engineering Intern</template>
                   <template #subtitle> @ Analog Devices, San Jose CA </template>
@@ -152,34 +161,39 @@
                   </template>
                 </title-subtitle-text-and-links>
               </template>
-              <template #right>
-                <v-carousel
-                  show-arrows="hover"
-                  delimiter-icon="mdi-square"
-                  hide-delimiter-background
-                >
-                  <v-carousel-item>
-                    <v-img
-                      src="@/assets/adi/Adi_Diagram.png"
-                      height="100%"
-                    ></v-img>
-                  </v-carousel-item>
-                  <v-carousel-item>
-                    <LiteYouTubeEmbed
-                      id="y6ZddWSTpBc"
-                      title="ADI Intern Project Demo"
-                      :aspectHeight="8.35"
-                    />
-                  </v-carousel-item>
-                </v-carousel>
+              <template #bottom>
+                <div style="max-width: 80%" class="mx-auto">
+                  <v-carousel
+                    show-arrows="hover"
+                    delimiter-icon="mdi-square"
+                    hide-delimiter-background
+                  >
+                    <v-carousel-item>
+                      <v-img
+                        src="@/assets/adi/Adi_Diagram.png"
+                        height="100%"
+                      ></v-img>
+                    </v-carousel-item>
+                    <v-carousel-item>
+                      <LiteYouTubeEmbed
+                        id="y6ZddWSTpBc"
+                        title="ADI Intern Project Demo"
+                        :aspectHeight="8.35"
+                      />
+                    </v-carousel-item>
+                  </v-carousel>
+                </div>
               </template>
-            </two-even-containers>
+            </two-even-rows>
           </div>
         </v-timeline-item>
 
         <v-timeline-item icon="mdi-briefcase" icon-color="black" fill-dot>
           <template v-slot:opposite>
-            <div style="font-size: 150%">December 2022 - January 2023</div>
+            <div style="font-size: 150%">
+              December 2022 - <br />
+              January 2023
+            </div>
           </template>
           <div class="py-16">
             <title-subtitle-text-and-links>
@@ -197,7 +211,10 @@
 
         <v-timeline-item icon="mdi-hand-extended" icon-color="black" fill-dot>
           <template v-slot:opposite>
-            <div style="font-size: 150%">December 2021 - July 2022</div>
+            <div style="font-size: 150%">
+              December 2021 - <br />
+              July 2022
+            </div>
           </template>
           <div class="py-16">
             <title-subtitle-text-and-links>
@@ -233,47 +250,47 @@
           <div class="py-16">
             <title-subtitle-text-and-links>
               <template #title>High School Graduation</template>
-              <template #subtitle>
-                @ Rouse High School, Leander TX
-              </template>
+              <template #subtitle> @ Rouse High School, Leander TX </template>
             </title-subtitle-text-and-links>
           </div>
         </v-timeline-item>
 
         <v-timeline-item icon="mdi-food" icon-color="black" fill-dot>
           <template v-slot:opposite>
-            <div style="font-size: 150%">January 2021 - May 2021</div>
+            <div style="font-size: 150%">
+              January 2021 - <br />
+              May 2021
+            </div>
           </template>
           <div class="py-16">
             <title-subtitle-text-and-links>
               <template #title>Team Member</template>
-              <template #subtitle>
-                @ Chick-fil-a, Cedar Park TX
-              </template>
+              <template #subtitle> @ Chick-fil-a, Cedar Park TX </template>
             </title-subtitle-text-and-links>
           </div>
         </v-timeline-item>
 
         <v-timeline-item icon="mdi-food" icon-color="black" fill-dot>
           <template v-slot:opposite>
-            <div style="font-size: 150%">March 2019 - August 2019</div>
+            <div style="font-size: 150%">
+              March 2019 - <br />
+              August 2019
+            </div>
           </template>
           <div class="py-16">
             <title-subtitle-text-and-links>
               <template #title>Team Member</template>
-              <template #subtitle>
-                @ Whataburger, Cedar Park TX
-              </template>
+              <template #subtitle> @ Whataburger, Cedar Park TX </template>
             </title-subtitle-text-and-links>
           </div>
         </v-timeline-item>
-        
       </v-timeline>
     </div>
   </v-container>
 </template>
 
 <script lang="ts" setup>
+import TwoEvenRows from "@/components/TwoEvenRows.vue";
 import LiteYouTubeEmbed from "vue-lite-youtube-embed";
 import "vue-lite-youtube-embed/style.css";
 </script>
