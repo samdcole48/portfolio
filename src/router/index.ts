@@ -20,7 +20,6 @@ const router = createRouter({
     { path: '/', name: '/', component: home },
   ],
   scrollBehavior(to, from, savedPosition) {
-    console.log('scrollBehavior called', { to, from, savedPosition });
     // always scroll to top
     return { top: 0 }
   },
