@@ -32,11 +32,15 @@
               :style="{ color: 'var(--v-theme-primary)' }"
               ><v-icon>mdi-github</v-icon></a
             >
-          </div></template
-        >
-        <template #right
-          ><img height="500" src="@/assets/headshot-no-bg.png"
-        /></template>
+          </div>
+        </template>
+        <template #right>
+          <img
+            style="display: block; margin-left: auto; margin-right: auto"
+            height="500"
+            src="@/assets/headshot-no-bg.png"
+          />
+        </template>
       </two-even-containers>
     </div>
 
