@@ -37,8 +37,8 @@
                   </template>
                   <template #text>
                     Served as a Full Stack Developer creating new tools to
-                    overhaul the existing short dated receiving process with
-                    automation and streamlining. These include: a short dated
+                    overhaul the existing short-dated receiving process with
+                    automation and streamlining. These include a short-dated
                     task dashboard for buyers to quickly make informed decisions
                     regarding their product and a tool for analysts to review
                     detailed receiving simulation results. I Created the
@@ -135,7 +135,7 @@
                     scripts on a physical FPGA board. This entire process is
                     seamlessly triggered with every pull request and the results
                     are reported in the comment section of that pull request,
-                    streamlining our development cycle. I Created this process
+                    streamlining our development cycle. I created this process
                     using Jenkins, Python, and Groovy.
                   </template>
                   <template #links>
@@ -224,9 +224,9 @@
               </template>
               <template #text>
                 Served as the head of logistics for Camp75. Organized and
-                executed multiple large scale events involving over 600 students
+                executed multiple large-scale events involving over 600 students
                 and volunteers. Mentored a group of 10 high school students and
-                a group of 20 7th grade boys.
+                a group of 20 7th-grade boys.
               </template>
               <template #links>
                 <a

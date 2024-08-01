@@ -5,14 +5,14 @@
         <template #left>
           <title-text-and-links>
             <template #title>TAMU BLSA Alumni Tracker</template>
-            <template #text
-              >Developed an alumni tracker for the Texas A&M Black Law Student
-              Association. Throughout this project I served as the Product Owner
-              and Lead Developer. As Product Owner I gained valuable skills in
-              communicating with an actual customer, one of which was the
-              ability to understand our customer's needs and translate them into
-              tangible user stories. As Lead Developer I took charge of the user
-              entity as well as the user interface. This project was built
+            <template #text>
+              Developed an alumni tracker for the Texas A&M Black Law Student
+              Association. Throughout this project, I served as the Product
+              Owner and Lead Developer. As Product Owner I gained valuable
+              skills in communicating with an actual customer, one of which was
+              the ability to understand our customer's needs and translate them
+              into tangible user stories. As Lead Developer I took charge of the
+              user entity as well as the user interface. This project was built
               primarily using Ruby On Rails and Tailwind.
             </template>
             <template #links>
@@ -78,13 +78,13 @@
           <title-text-and-links>
             <template #title>MESS Waffles POS System</template>
             <template #text>
-              Developed a point of sales web app for MESS Waffles, a restraunt
-              in College Station. Throughout this project I served as the Lead
+              Developed a point-of-sales web app for MESS Waffles, a restaurant
+              in College Station. Throughout this project, I served as the Lead
               Backend Developer as well as the Database Architect. As a Backend
               Developer I learned how to write API calls using RESTFUL
-              practices. As a Database Architect I learned how to manage an ever
-              changing database. This project was built primarily using React,
-              Express, and PostgreSQL.
+              practices. As a Database Architect I learned how to manage an
+              ever-changing database. This project was built primarily using
+              React, Express, and PostgreSQL.
             </template>
             <template #links>
               <a
@@ -129,9 +129,9 @@
           <title-text-and-links>
             <template #title>64-bit x86 CPU</template>
             <template #text>
-              Designed a fully functional 64-bit intel like x86 CPU from basic
+              Designed a fully functional 64-bit intel-like x86 CPU from basic
               logic gates in Logism. This was the final project for my computer
-              organization course, CSCE 312
+              organization course, CSCE 312.
             </template>
             <template #links>
               <a

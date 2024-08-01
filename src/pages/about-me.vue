@@ -7,7 +7,7 @@
           <div style="font-size: 150%; max-width: 600px">
             I am a computer science student at Texas A&M University. I am
             actively involved in both the Roundnet and Pickleball Clubs and
-            enjoy competing in tournaments. In my free time I like to unwind by
+            enjoy competing in tournaments. In my free time, I like to unwind by
             watching sports, playing video games, and joking around with
             friends. My favorite form of vacation is visiting and hiking through
             national parks.
@@ -57,12 +57,12 @@
         <title-text-and-links>
           <template #title>Texas A&M</template>
           <template #text>
-            Throughout my time at Texas A&M I have maintained a 4.0 major GPA
-            and a 3.95+ general GPA. I have completed 104 hours which has
-            allowed me to obtain my Aggie Ring. I am an avid Aggie Sport fan,
-            but football will always be my favorite. I am a member of the Aggie
-            Coding Club, Pickleball Club, and Roundnet Club. My Junior Year I
-            had the oppurtunity to serve as the Roundnet Club President.
+            Throughout my time at Texas A&M, I have maintained a 4.0 major GPA
+            and a 3.95+ general GPA. I was born and raised an Aggie and have
+            loved being a student here. I am an avid Aggie Sports fan, but
+            football will always be my favorite. I am a member of the Aggie
+            Coding Club, Pickleball Club, and Roundnet Club. In my Junior Year,
+            I had the opportunity to serve as the Roundnet Club President.
           </template>
           <template #links>
             <a
@@ -160,8 +160,8 @@
         <title-text-and-links>
           <template #title>Hiking</template>
           <template #text>
-            Hiking is my absolute favorite thing to do, I have gone on many
-            hiking trips and have many more planned in the future! During the
+            Hiking is one of my favorite things to do, I have gone on many
+            hiking trips and have many more planned for the future! During the
             summer of 2023, while living in San Jose CA, I was within driving
             distance of many national and state parks. I took full advantage of
             this and visited a different one every other weekend! The most
