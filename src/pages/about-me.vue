@@ -32,7 +32,7 @@
               ><v-icon>mdi-github</v-icon></a
             >
             <a
-              href="One Pager Resume, Sam Cole.pdf"
+              href="Cole_Sam.pdf"
               target="_blank"
               :style="{
                 color: 'var(--v-theme-primary)',
@@ -61,8 +61,8 @@
             and a 3.95+ general GPA. I was born and raised an Aggie and have
             loved being a student here. I am an avid Aggie Sports fan, but
             football will always be my favorite. I am a member of the Aggie
-            Coding Club, Pickleball Club, and Roundnet Club. In my Junior Year,
-            I had the opportunity to serve as the Roundnet Club President.
+            Coding Club, Roundnet Club, and Pickleball Club. Since my Junior Year,
+            I have had the opportunity to serve as the Roundnet Club President.
           </template>
           <template #links>
             <a
