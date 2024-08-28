@@ -5,12 +5,11 @@
         <template #left
           ><img height="100" src="@/assets/my-logo.png" />
           <div style="font-size: 150%; max-width: 600px">
-            I am a computer science student at Texas A&M University. I am
-            actively involved in both the Roundnet and Pickleball Clubs and
-            enjoy competing in tournaments. In my free time, I like to unwind by
-            watching sports, playing video games, and joking around with
-            friends. My favorite form of vacation is visiting and hiking through
-            national parks.
+            I am a computer science student at Texas A&M University. I am the
+            President of the Texas A&M Roundnet Club and enjoy competing in
+            tournaments. In my free time, I like to unwind by watching sports,
+            playing video games, and joking around with friends. My favorite
+            form of vacation is visiting and hiking through national parks.
           </div>
           <br />
           <div style="font-size: 150%">
@@ -61,8 +60,9 @@
             and a 3.95+ general GPA. I was born and raised an Aggie and have
             loved being a student here. I am an avid Aggie Sports fan, but
             football will always be my favorite. I am a member of the Aggie
-            Coding Club, Roundnet Club, and Pickleball Club. Since my Junior Year,
-            I have had the opportunity to serve as the Roundnet Club President.
+            Coding Club, Roundnet Club, and Pickleball Club. Since my Junior
+            Year, I have had the opportunity to serve as the Roundnet Club
+            President.
           </template>
           <template #links>
             <a
